@@ -1,6 +1,6 @@
 import './App.css';
 import { useEffect, useState } from 'react';
-const apiBaseURL = "http://20.219.95.21:3001/api/v1/"
+const apiBaseURL = "https://rgnode.azurewebsites.net/api/v1/"
 
 function App() {
   const [tasks, setTasks] = useState([]);
